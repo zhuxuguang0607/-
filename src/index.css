@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Lexend", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #000c33;
+  --color-secondary: #a93100;
+  --color-surface: #f7f9ff;
+  --color-on-surface: #151c23;
+  --color-on-surface-variant: #444650;
+  --color-surface-container: #e8eef8;
+  --color-surface-container-high: #e2e9f2;
+  --color-surface-container-highest: #dce3ec;
+  --color-surface-container-low: #edf4fe;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body;
+  }
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

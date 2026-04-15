@@ -1,0 +1,6 @@
+{
+  "name": "亚瑟士鞋品大师智能体",
+  "description": "ASICS Master AI - 专业级鞋品导购与销售培训智能体",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": []
+}
